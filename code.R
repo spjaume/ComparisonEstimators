@@ -202,7 +202,7 @@ aux30 <- sim_var(10000, "norm", "norm", 500, 500, 0, 1, 2, 1, 0.1)
 
 # m0=0,s0=1,m0=2,s0=1*sqrt(1.1),rho=0.1
 aux31 <- sim_var(10000, "norm", "norm", 20, 20, 0, 1, 2, 1*sqrt(1.1), 0.1)
-aux32 <-sim_var(10000, "norm", "norm", 100, 100, 0, 1, 2, 1*sqrt(1.1), 0.1)
+aux32 <- sim_var(10000, "norm", "norm", 100, 100, 0, 1, 2, 1*sqrt(1.1), 0.1)
 aux33 <- sim_var(10000, "norm", "norm", 500, 500, 0, 1, 2, 1*sqrt(1.1), 0.1)
 
 # m0=0,s0=1,m0=2,s0=1*sqrt(1.3),rho=0.1
@@ -283,8 +283,8 @@ aux72 <- sim_var(10000, "norm", "norm", 500, 500, 0, 1, 0.5, 1*sqrt(1.05), 0.3)
 
 
 res3 <- rbind(aux55, aux56, aux57, aux58, aux59, aux60,
-             aux61, aux62, aux63, aux64, aux65, aux66, aux67, aux68, aux69, aux70,
-             aux71, aux72)
+              aux61, aux62, aux63, aux64, aux65, aux66, aux67, aux68, aux69, aux70,
+              aux71, aux72)
 
 
 
