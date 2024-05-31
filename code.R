@@ -288,7 +288,7 @@ res3 <- rbind(aux55, aux56, aux57, aux58, aux59, aux60,
 
 
 
-res_tot <- rbind(res1,res2, res3)
+res_tot <- rbind(res1, res2, res3)
 
 result <- res_tot[c(29:31, 56:58, 32:40, 59:61, 41:49, 62:64, 50:55, 1:3, 65:67, 4:12, 68:70, 13:21, 71:73, 22:27), ]
 # 'result' contains the data presented in the tables of the article
