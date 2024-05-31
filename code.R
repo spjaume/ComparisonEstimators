@@ -253,7 +253,7 @@ res2 <- rbind(aux27, aux28, aux29, aux30,
 
 
 
-#### scenarios with ratio of variances equal to 10.5
+#### scenarios with ratio of variances equal to 1.05
 set.seed(200)
 
 ## p=0.1
